@@ -34,7 +34,7 @@ const AyahWidget = () => {
       background: "linear-gradient(45deg, tomato, #0075dc)",
       border: "1px solid #fff",
       borderRadius: "12px",
-      padding: "15px",
+      padding: "auto",
       fontFamily: "sans-serif",
       margin: "20px auto",
       textAlign: "center",
