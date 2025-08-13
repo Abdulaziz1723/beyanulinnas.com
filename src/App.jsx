@@ -56,25 +56,9 @@ root.render(
   <StrictMode>
   <Header/>
   <Main/>
-  <App/>
   <Footer/>
 </StrictMode>
 )
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Keshf from './components/Keshf';
-import Home from './components/Home';
 
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/keshf" element={<Keshf />} />
-      </Routes>
-    </Router>
-  );
-}
-
-export default App;
 
