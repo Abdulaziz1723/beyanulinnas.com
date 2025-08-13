@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang= 'en'>
+<head>
+  <meta charset= 'UTF-8'>
+  <meta name= 'viewport' content= 'width=device-width, initial-scale=1.0'>
+  <title>📖خذ عقيدتك📖</title>
+</head>
+<body id= 'body'>
+  <main id="root"></main>
+  <script type="module" src="./Zmain.jsx"></script>
+  <script>
+    const body = document.getElementById('body');
+    const texts = document.getElementsByTagName('h5');
+
+      let currentHour = new Date().getHours();
+
+      if (currentHour >= 18 || currentHour < 7)
+    {
+      body.style.backgroundColor= '#151211';
+      for (let i = 0; i < texts.length; i++)
+    {
+      texts[i].style.color='white';
+    }
+    }
+
+  </script>
+</body>
+</html>
