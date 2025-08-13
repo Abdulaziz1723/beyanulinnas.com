@@ -56,6 +56,7 @@ root.render(
   <StrictMode>
   <Header/>
   <Main/>
+  <App/>
   <Footer/>
 </StrictMode>
 )
